@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Nunito Sans', sans-serif;
   font-size: large;
-  background-color: tan;  /* Background color of page. Optimal is to match color on line 64  */
+  background-color: rgb(230, 189, 217);  /* Background color of page. Optimal is to match color on line 64  */
   text-align: center;     /* Center all text on page  */
   }
 
@@ -39,7 +39,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #151515;    /* Color of top navigation bar */
+  background-color: #db4ea0;    /* Color of top navigation bar */
   }
 
 ul.topnav li {
@@ -56,12 +56,12 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {
   color: black;
-  background-color: wheat;      /* Color of tab on on top navigation bar with mouse-over hover */
+  background-color: rgb(164, 103, 172);      /* Color of tab on on top navigation bar with mouse-over hover */
   }  
 
 ul.topnav li a.active {
   color: black;
-  background-color: tan;      /* Color of your active tab on the navigation bar. Match or coordinate with body background color on line 5  */
+  background-color: rgb(230, 189, 217);      /* Color of your active tab on the navigation bar. Match or coordinate with body background color on line 5  */
   }
 
 ul.topnav li.right {
