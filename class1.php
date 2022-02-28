@@ -35,7 +35,8 @@
    
     <p>INLS 161 is Tools of Information Literacy.</p>
    
-    <p>Here is the link to my class's website:</p>
+    <p>Here is the link to my class's website:
+    <a href="https://ils.unc.edu/courses/2022_spring/inls161_001/index.html">Spring 2022 INLS 161</a></p>
    
    
     

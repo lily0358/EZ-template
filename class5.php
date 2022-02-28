@@ -35,7 +35,9 @@
    
    <p>MATH 381 is Discrete Mathematics.</p>
    
-   <p>Here is the link to my class's website:</p>
+   <p>Here is the link to math courses at UNC:
+       <a href="https://catalog.unc.edu/courses/math/">Spring 2022 MATH 381</a>
+   </p>
    
 
    

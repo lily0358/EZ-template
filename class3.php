@@ -35,7 +35,9 @@
    
    <p>CHIN 212 is Second Level Heritage Track Chinese</p>
    
-   <p>Here is the link to my class's website:</p>
+   <p>Here is the link to one of my class's resources:
+       <a href="https://www.thechairmansbao.com/">Spring 2022 CHIN 212</a>
+   </p>
    
 
        </div>

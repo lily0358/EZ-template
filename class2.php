@@ -35,7 +35,9 @@
    
    <p>BUSI 102 is Introduction to Financial Accounting</p>
    
-   <p>Here is the link to my class's website:</p>
+   <p>Here is the link to my class's website:
+       <a href="https://canvasdiscovery.kenan-flagler.unc.edu/">Spring 2022 BUSI 102</a>
+   </p>
    
    
     
