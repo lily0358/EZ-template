@@ -7,12 +7,6 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <script> 
-    var normalButton = new Image(); 
-    var reverseButton = new Image(); 
-    normalButton.src = "Lily.jpg"; 
-    reverseButton.src = "Lily1.jpg"; 
-   </script> 
  </head>
  <body>
   <!-- Start of Navigation code -->
@@ -26,8 +20,14 @@
   <article>
    <h1>About Page</h1>
     <p>This is the About Page.</p> 
-    <div class="rows">
+    <div class="row">
     <div class="six columns"> 
+      <script> 
+        var normalButton = new Image(); 
+        var reverseButton = new Image(); 
+        normalButton.src = "Lily.jpg"; 
+        reverseButton.src = "Lily1.jpg"; 
+       </script> 
       <a class="active" href="about.html" 
         onMouseOver="document.ThisImg.src = reverseButton.src; return true" 
         onMouseOut="document.ThisImg.src = normalButton.src; return true"> 
