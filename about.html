@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <script> 
-    var normalButton = new Image(200, 300); 
-    var reverseButton = new Image(200, 300); 
+    var normalButton = new Image(); 
+    var reverseButton = new Image(); 
     normalButton.src = "Lily.jpg"; 
     reverseButton.src = "Lily1.jpg"; 
    </script> 
@@ -26,15 +26,20 @@
   <article>
    <h1>About Page</h1>
     <p>This is the About Page.</p> 
-    <p class="center"> 
+    <div class="rows">
+    <div class="six columns"> 
       <a class="active" href="about.html" 
         onMouseOver="document.ThisImg.src = reverseButton.src; return true" 
         onMouseOut="document.ThisImg.src = normalButton.src; return true"> 
         <img name="ThisImg" src="Lily.jpg" /> 
+        <p>Here are two of the pictures I took a few days ago at Coker Arboretum.</p>
       </a> 
-    </p> 
-      <p>Here are two of the pictures I took a few days ago at Coker Arboretum.</p>
+    </div> 
   </article>
+  <div class="six columns">
+    <p><a href="Su-Lily-Resume.pdf">Download my R&eacute;sume.</a> </p>
+    <p>I am a first year student at UNC Chapel Hill, and I am currently planning on double majoring in Computer Science and Business. I am from Charlotte, North Carolina and have four siblings as well as a beagle.</p>
+  </div>
  <footer>
   <p>
     This is my hard-coded website for INLS161. Please enjoy my content. Last updated February 28, 2022.
