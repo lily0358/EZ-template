@@ -28,7 +28,7 @@
     <li class="nav-item"><a class="nav-link" href="class1.php">INLS 161</a></li>
     <li class="nav-item"><a class="nav-link active" href="class2.php">BUSI 102</a></li>
     <li class="nav-item"><a class="nav-link" href="class3.php">CHIN 212</a></li>
-    <li class="nav-item"><a class="nav-link" href="class4.php">ENGL 105/a></li>
+    <li class="nav-item"><a class="nav-link" href="class4.php">ENGL 105</a></li>
     <li class="nav-item"><a class="nav-link" href="class5.php">MATH 381</a></li>
    </ul>
    <h1>BUSI 102</h1>
@@ -46,11 +46,16 @@
    </div>
    
    
-    <footer class="footer">
+   <footer class="footer">
      <div class="container">
-      <span>Place footer content here.</span>
+      <span>
+          <script>
+          document.write("Page last updated on " + document.lastModified);
+          </script>
+   </span>
      </div>
       </footer>
+   
    
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>

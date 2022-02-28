@@ -24,18 +24,18 @@
    
    
    
-<ul class="nav nav-pills">
-    <li class="nav-item"><a class="nav-link active" href="class1.php">INLS 161</a></li>
-    <li class="nav-item"><a class="nav-link" href="class2.php">BUSI 102</a></li>
-    <li class="nav-item"><a class="nav-link" href="class3.php">CHIN 212</a></li>
-    <li class="nav-item"><a class="nav-link" href="class4.php">ENGL 105</a></li>
-    <li class="nav-item"><a class="nav-link" href="class5.php">MATH 381/a></li>
-   </ul>
-   <h1>INLS 161</h1>
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link active" href="class1.php">INLS 161</a></li>
+        <li class="nav-item"><a class="nav-link" href="class2.php">BUSI 102</a></li>
+        <li class="nav-item"><a class="nav-link" href="class3.php">CHIN 212</a></li>
+        <li class="nav-item"><a class="nav-link" href="class4.php">ENGL 105</a></li>
+        <li class="nav-item"><a class="nav-link" href="class5.php">MATH 381</a></li>
+    </ul>
+    <h1>INLS 161</h1>
    
-   <p>INLS 161 is Tools of Information Literacy.</p>
+    <p>INLS 161 is Tools of Information Literacy.</p>
    
-   <p>Here is the link to my class's website:</p>
+    <p>Here is the link to my class's website:</p>
    
    
     
@@ -48,7 +48,11 @@
    
     <footer class="footer">
      <div class="container">
-      <span>Place footer content here.</span>
+      <span>
+          <script>
+          document.write("Page last updated on " + document.lastModified);
+          </script>
+   </span>
      </div>
       </footer>
    

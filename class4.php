@@ -45,11 +45,16 @@
    </div>
    
    
-    <footer class="footer">
+   <footer class="footer">
      <div class="container">
-      <span>Place footer content here.</span>
+      <span>
+          <script>
+          document.write("Page last updated on " + document.lastModified);
+          </script>
+   </span>
      </div>
       </footer>
+   
    
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
