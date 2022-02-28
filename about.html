@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <script> 
+    var normalButton = new Image(); 
+    var reverseButton = new Image(); 
+    normalButton.src = "Lily.jpg"; 
+    reverseButton.src = "Lily1.jpg"; 
+   </script> 
  </head>
  <body>
   <!-- Start of Navigation code -->
@@ -22,13 +28,7 @@
     <p>This is the About Page.</p> 
     <p><a href="Su-Lily-Resume.pdf">Download my R&eacute;sume.</a> </p>
     <p>I am a first year student at UNC Chapel Hill, and I am currently planning on double majoring in Computer Science and Business. I am from Charlotte, North Carolina and have four siblings as well as a beagle.</p>
-      <script> 
-        var normalButton = new Image(100, 150); 
-        var reverseButton = new Image(100, 150); 
-        normalButton.src = "Lily.jpg"; 
-        reverseButton.src = "Lily1.jpg"; 
-       </script> 
-      <a class="active" href="about.html" 
+      <a> 
         onMouseOver="document.ThisImg.src = reverseButton.src; return true" 
         onMouseOut="document.ThisImg.src = normalButton.src; return true"> 
         <img name="ThisImg" src="Lily.jpg" /> 
